@@ -21,6 +21,6 @@ document.getElementById('calcBtn').addEventListener('click', function() {
     const adjustedWeightTons = totalWeightTons * compactionFactor; // Adjust for compaction
 
     // Send result back to HTML
-    document.getElementById('display').innerText = `Total Weight: ${totalWeightTons.toFixed(2)} - ${adjustedWeightTons.toFixed(2)} tons. 
+    document.getElementById('display').innerText = `Total Tons Needed: ${totalWeightTons.toFixed(2)} - ${adjustedWeightTons.toFixed(2)} tons. 
     Amount varies based on compaction and material type.`;
 });
